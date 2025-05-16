@@ -152,10 +152,6 @@ span {
   padding: 0 4px;
 }
 
-select {
-  background-color: #ffffff !important;
-}
-
 .discounted-price {
   font-weight: 500;
   font-size: 14px;
@@ -215,7 +211,7 @@ select {
 
 .spacer-box {
   width: 10px;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 400;
   line-height: 100%;
 }
@@ -233,9 +229,21 @@ select {
 .colour-box {
   width: 65px;
   height: 25px;
-  font-size: 10px;
   font-weight: 400;
-  border: 0.9px solid #dadada;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #ffffff;
+  border: 0.9px solid #d9d9d9;
+  padding: 5px;
+  font-size: 11px;
+  position: relative;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'><polygon fill='black' points='6,9 12,15 18,9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 3px center;
+  background-size: 12px 12px;
+  padding-right: 22px;
+  cursor: pointer;
 }
 
 .delivery-and-total-price-container {
