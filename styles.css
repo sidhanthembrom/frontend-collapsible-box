@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100vh;
 }
 
@@ -20,6 +19,10 @@
 }
 
 @media (max-width: 459px) {
+  .main-container {
+    width: 100vw;
+  }
+
   .form-container {
     width: 383px;
     padding: 39px 20px;
