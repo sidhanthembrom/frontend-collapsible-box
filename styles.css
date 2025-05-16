@@ -152,6 +152,10 @@ span {
   padding: 0 4px;
 }
 
+select {
+  background-color: #ffffff !important;
+}
+
 .discounted-price {
   font-weight: 500;
   font-size: 14px;
